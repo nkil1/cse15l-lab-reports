@@ -1,4 +1,4 @@
-
+Hello, world!
 
 Here are examples of basic Markdown syntax in use:
 
