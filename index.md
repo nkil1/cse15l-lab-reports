@@ -1,5 +1,7 @@
 Hello, world!
 
+[Lab Report 1](https://github.com/quantiumtech/cse15l-lab-reports/blob/main/lab-report-1-week-0.html)
+
 Here are examples of basic Markdown syntax in use:
 
 *Italic*   
@@ -21,8 +23,8 @@ Here are examples of basic Markdown syntax in use:
 Horizontal rule:
 ---
 
-`inline code
- test`
+`inline code test ` test
+
  
 ```
 code block test
