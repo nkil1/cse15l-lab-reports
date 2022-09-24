@@ -6,7 +6,8 @@ Here are examples of basic Markdown syntax in use:
 **Bold**  
 ~~strikethrough~~
 # Heading 1 (1-6 largest to smallest)
-[https://quantiumtech.github.io/cse15l-lab-reports/](a link to my second md file)    
+[https://quantiumtech.github.io/cse15l-lab-reports/test.md](a link to my second md file)
+
 >Blockquote  
 
 * List a
