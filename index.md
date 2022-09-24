@@ -1,6 +1,6 @@
 Hello, world!
 
-[Lab Report 1](https://github.com/quantiumtech/cse15l-lab-reports/blob/main/lab-report-1-week-0.html)
+[Lab Report 1](https://github.com/quantiumtech/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
 
 Here are examples of basic Markdown syntax in use:
 
