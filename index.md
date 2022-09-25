@@ -1,6 +1,6 @@
-Hello, world!
+Hello, World!
 
-[Lab Report 1](https://github.com/quantiumtech/cse15l-lab-reports/blob/main/lab-report-1-week-0.html)
+[Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 Here are examples of basic Markdown syntax in use:
 
@@ -16,9 +16,9 @@ Here are examples of basic Markdown syntax in use:
 * List b
 * List c
 
-1. 1
-2. 2
-3. 3
+1. 12
+2. 23
+3. 34
 
 Horizontal rule:
 ---
