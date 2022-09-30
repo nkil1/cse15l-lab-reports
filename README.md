@@ -1,5 +1,5 @@
 # cse15l-lab-reports
-https://quantiumtech.github.io/cse15l-lab-reports/
+Main page: https://quantiumtech.github.io/cse15l-lab-reports/
 
 ---
 
