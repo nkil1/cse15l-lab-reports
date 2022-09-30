@@ -4,6 +4,7 @@ Welcome to my Week 1 lab report! This page is a comprehensive tutorial that will
 <br />
 
  ### 1) Installing VScode 
+ 
  Visual Studio Code is the recommended IDE for this course. Go to  https://code.visualstudio.com/ and follow the steps on the site to install the program.\
   Make sure to choose the right installer for your operating system, as a Windows installer won't work on Mac (and vice versa).
 
