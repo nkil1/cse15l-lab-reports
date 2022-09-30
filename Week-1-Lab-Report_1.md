@@ -1,5 +1,5 @@
 # Week 1 Lab Report
-Welcome to my week 1 lab report! This page is a comprehensive tutorial that will walk you through the steps needed to log you into your course-specific **ieng6** account.
+Welcome to my Week 1 lab report! This page is a comprehensive tutorial that will walk you through the steps needed to log you into your course-specific **ieng6** account.
 <br />
 <br />
 
