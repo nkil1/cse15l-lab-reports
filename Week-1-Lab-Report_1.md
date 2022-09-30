@@ -3,10 +3,10 @@ Welcome to my Week 1 lab report! This page is a comprehensive tutorial that will
 <br />
 <br />
 
- ### 1) Installing VScode 
+### 1) Installing VScode 
  
- Visual Studio Code is the recommended IDE for this course. Go to  https://code.visualstudio.com/ and follow the steps on the site to install the program.\
-  Make sure to choose the right installer for your operating system, as a Windows installer won't work on Mac (and vice versa).
+Visual Studio Code is the recommended IDE for this course. Go to  https://code.visualstudio.com/ and follow the steps on the site to install the program.\
+Make sure to choose the right installer for your operating system, as a Windows installer won't work on Mac (and vice versa).
 
  <img src="https://quantiumtech.github.io/cse15l-lab-reports/vscodeinstall.png" width="600" height="400">
 
