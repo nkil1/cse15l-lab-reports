@@ -1,10 +1,18 @@
-Hello, world! (Week 0, Lab 1)
+Welcome to my GitHub page! All of my lab reports will be listed here for CSE 15L.
 
 
 # Index
-[Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[WEEK 0: Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
-###  Markdown Examples
+[WEEK 1: Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/Week-1-Lab-Report_1.html)
+
+
+<br />
+<br />
+
+---
+
+###  Markdown Examples (For Week 0 Task)
 ---  
 Here are examples of basic Markdown syntax in use:
 
