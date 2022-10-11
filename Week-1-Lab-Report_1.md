@@ -21,7 +21,7 @@ What you should see on startup
 ### 2) Remotely Connecting
 Make sure you install the OpenSSH client if you don't already have it. \
 Create a new file in any folder called WhereAmI.java, then navigate to "Terminal" -> "New Terminal" using the toolbar up top. \
-Here, you can use the ssh command like so in order to log in to your remote server using your account name and password (get your account name and password [here](https://sdacs.ucsd.edu/~icc/index.php), I don't input a password because a later step allows you do skip doing so):
+Here, you can use the ssh command like so in order to log in to your remote server using your account name and password (get your account name and password [here](https://sdacs.ucsd.edu/~icc/index.php), I don't input a password because a later step allows you do skip doing so)\: 
 
 <img src="./remoteconnect.png" >
 What your terminal should look like after sucessfully connecting 
