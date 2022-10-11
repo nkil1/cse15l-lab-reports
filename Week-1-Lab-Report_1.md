@@ -46,14 +46,14 @@ Next, compile and run your WhereAmI program by using ``javac WhereAmI.java`` and
 Finally, copy the file to your remote server using ``scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/``;
 
 ![javacoutput](./javacoutput.png)
- What the WhereAmI program should output to terminal</
+ What the WhereAmI program should output to terminal
 <br/>
 
 ![scp](./scp.png)
- Copying to remote server...</
+ Copying to remote server...
 
 ![serveroutput](./serveroutput.png)
- Compiling and running WhereAmI on the server </
+ Compiling and running WhereAmI on the server 
 <br />
 <br />
 
@@ -63,15 +63,15 @@ Enter the ``ssh-keygen`` command and follow the prompts: when asked to "enter fi
 Finally, log into your remote server and type ``mkdir .ssh`` into the terminal, which should allow you to finally log into the remote server / copy files with no password!
 
 ![SSH Keygen](./sshkeyprocess.png)
- The process of setting up your ssh keygen... </
+ The process of setting up your ssh keygen... 
 <br/>
 
 ![SSH Add](./windowsSSHadd.png)
- OPTIONAL Windows-only ssh-add step. Make sure to cd to the directory holding your ssh key. </
+ OPTIONAL Windows-only ssh-add step. Make sure to cd to the directory holding your ssh key. 
 <br/>
 
 ![EZ ssh](./ezssh.png)
- Smooth log-in once our ssh key is setup! </figcaptiion>
+ Smooth log-in once our ssh key is setup! 
 
 <br />
 <br />
