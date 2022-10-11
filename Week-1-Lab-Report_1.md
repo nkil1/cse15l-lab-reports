@@ -8,15 +8,15 @@ Welcome to my Week 1 lab report! This page is a comprehensive tutorial that will
 Visual Studio Code is the recommended IDE for this course. Go to  https://code.visualstudio.com/ and follow the steps on the site to install the program.\
 Make sure to choose the right installer for your operating system, as a Windows installer won't work on Mac (and vice versa).
 
-<figure>
-<img src = "./vscodepage.png" alt="VS code landing page"/>
-<figcaption> VScode landing page</figcaption>
 
- <img src="./vscodeinstall.png" width="600" height="400">
-<figcaption>What you should see on startup</figcaption>
+<img src = "./vscodepage.png" alt="VS code landing page"/>
+ VScode landing page
+
+ <img src="./vscodeinstall.png" width="600" height="400">\
+What you should see on startup
 
   <br />
-<br />
+  <br />
 
 ### 2) Remotely Connecting
 Make sure you install the OpenSSH client if you don't already have it. \
@@ -24,7 +24,7 @@ Create a new file in any folder called WhereAmI.java, then navigate to "Terminal
 Here, you can use the ssh command like so in order to log in to your remote server using your account name and password (get your account name and password [here](https://sdacs.ucsd.edu/~icc/index.php), I don't input a password because a later step allows you do skip doing so):
 
 <img src="./remoteconnect.png" >
-<figcaption> What your terminal should look like after sucessfully connecting </figcaption>
+What your terminal should look like after sucessfully connecting 
 
 <br />
 <br />
@@ -35,7 +35,7 @@ Common commands include cd, ls, cp, and cat; refer to [this](https://dyclassroom
 Logout of the remote server by typing "logout" once you're done.
 
 ![Commands](./commands.png)
-<figcaption> Commands being run on the terminal. We are printing the current directory, copying foo.txt to the test directory, then changing into the foo directory in order to check if the copy was successful.</figcaption>
+ Commands being run on the terminal. We are printing the current directory, copying foo.txt to the test directory, then changing into the foo directory in order to check if the copy was successful.<
 
 <br />
 <br />
@@ -46,14 +46,14 @@ Next, compile and run your WhereAmI program by using ``javac WhereAmI.java`` and
 Finally, copy the file to your remote server using ``scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/``;
 
 ![javacoutput](./javacoutput.png)
-<figcaption> What the WhereAmI program should output to terminal</figcaption>
+ What the WhereAmI program should output to terminal</
 <br/>
 
 ![scp](./scp.png)
-<figcaption> Copying to remote server...</figcaption>
+ Copying to remote server...</
 
 ![serveroutput](./serveroutput.png)
-<figcaption> Compiling and running WhereAmI on the server </figcaption>
+ Compiling and running WhereAmI on the server </
 <br />
 <br />
 
@@ -63,15 +63,15 @@ Enter the ``ssh-keygen`` command and follow the prompts: when asked to "enter fi
 Finally, log into your remote server and type ``mkdir .ssh`` into the terminal, which should allow you to finally log into the remote server / copy files with no password!
 
 ![SSH Keygen](./sshkeyprocess.png)
-<figcaption> The process of setting up your ssh keygen... </figcaption>
+ The process of setting up your ssh keygen... </
 <br/>
 
 ![SSH Add](./windowsSSHadd.png)
-<figcaption> OPTIONAL Windows-only ssh-add step. Make sure to cd to the directory holding your ssh key. </figcaption>
+ OPTIONAL Windows-only ssh-add step. Make sure to cd to the directory holding your ssh key. </
 <br/>
 
 ![EZ ssh](./ezssh.png)
-<figcaption> Smooth log-in once our ssh key is setup! </figcaptiion>
+ Smooth log-in once our ssh key is setup! </figcaptiion>
 
 <br />
 <br />
@@ -82,7 +82,7 @@ Input the commands as shown below, replacing the file names and account names as
 For this specific example, all you need to do is press the "up" key in order to copy a file to the remote server and run it in only a few keystrokes! (Up key mileage may vary based on how many commands you plan on running in between)\
 \
 ![EZ remote](./pleasantremote.png)
-<figcaption> Commands needed to copy and run WhereAmI on the server all in one line, easily accessible by the up key.</figcaption>
+ Commands needed to copy and run WhereAmI on the server all in one line, easily accessible by the up key.
 <br />
 <br />
 
@@ -93,4 +93,4 @@ For this specific example, all you need to do is press the "up" key in order to 
 
 ## ~End of guide~
 
-</figure>
+
