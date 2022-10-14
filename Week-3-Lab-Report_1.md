@@ -66,8 +66,8 @@ class SearchEngine {
     
 }
 ```
-</br>
-</br>
+<br/>
+<br/>
 
 ### Screenshot #1: Default landing page
 ---
@@ -84,8 +84,8 @@ There is also an empty String ArrayList that never gets modified in this case.
 **Do any values change?**: \
 These values do not change by the time the request is processed.
 
-</br>
-</br>
+<br/>
+<br/>
 ### Screenshot(s) #2: Adding words to the server
 
 ---
@@ -107,8 +107,8 @@ add() = parameters[1]. adds the user's input into the words ArrayList.
 **Do any values change?** \
 The words ArrayList gets an extra initialized element (value) everytime the add operation succeeds. The values in parameters[0] and [1] are created and initialized with potentially new elements for every request.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Screenshot(s) #3: Searching server for words
 
@@ -139,9 +139,9 @@ substring() = (0, anOutput.length() - 4). Due to my decision to format the outpu
 **Do any values change?** \
 As before, the values in parameters[0] and [1] are created and initialized with potentially new elements for every request. The output of the initialized string anOutput can also change depending on the elements held in the words ArrayList.
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 ## Part 2: Inputs, Symptoms, Bugs, and Fixes
 ---
@@ -150,7 +150,7 @@ As before, the values in parameters[0] and [1] are created and initialized with 
 **The failure-inducing input:**\
 ![Fail Input](./images/failinput1.png)
 The custom test fails because the reversal swaps elements incorrectly.
-</br>
+<br/>
 
 **The symptom:**
 ![The Symptom](./images/failout1.png)
@@ -164,8 +164,8 @@ The method that is commented out is the original implementation. To reiterate, t
 **Symptom and bug relationship**:\
 The bug that utilizes an array filled with zeroes causes this program fail outside two very specific inputs: an empty array, and an array filled with zeroes. This bug causes this particular symptom due to the fact that an array of non-zeroes will never be equivalent to an array of only zeroes, and this holds true for all arrays that are not empty or filled with non-zeroes.
 
-</br>
-</br>
+<br />
+<br />
 
 ### Problem #2: ListExamples' filter() method
 
@@ -186,7 +186,8 @@ The method that is commented out is the original implementation. To reiterate, t
 **Symptom and bug relationship**:\
 The bug that causes the method to always add elements to the front means that this method fails outside of some very specific inputs: 1) an empty listArray. 2) an input with only 1 element. 3) an input that leads to the filter removing all or all but one element. This bug causes this particular symptom due to the fact that a reversed filtered arrayList will never be equivalent to our expected output of a filtered arrayList in the same order -- and this holds true for all inputs outside of the 3 outlined above.\
 
-
+<br/>
+<br/>
 
 ---
 ## ~End of Report~
