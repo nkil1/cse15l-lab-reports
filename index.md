@@ -6,7 +6,7 @@ Welcome to my GitHub page! All of my lab reports will be listed here for CSE 15L
 
 [WEEK 1: Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/Week-1-Lab-Report_1.html)
 
-[WEEK 3: Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/../../../Week-3-Lab-Report_1.md)
+[WEEK 3: Lab Report 1](https://quantiumtech.github.io/cse15l-lab-reports/Week-3-Lab-Report_1.html)
 
 <br />
 <br />
