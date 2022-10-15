@@ -133,7 +133,7 @@ split() = "=", as before.\
 get() = i (our for loop's index). gets the value at index i.\
 indexOf() = search, where search is equivalent to parameters[1]. Checks for the index of a value matching the argument, and returns -1 if not found.\
 concat() = " add ", which concatenates " and " onto the output string.\
-substring() = (0, anOutput.length() - 4). Due to my decision to format the output with an " add " after every word, I use the substring method in order to remove the " and " from the last word.
+substring() = (0, anOutput.length() - 4). Due to my decision to format the output with an " and " after every word, I use the substring method in order to remove the " and " from the last word.
 
 **Do any values change?** \
 As before, the values in parameters[0] and [1] are created and initialized with potentially new elements for every request,  but aren't modified by the end of the request. Our words arrayList never changes when we are being asked to search. The output string anOutput constantly changes until the end of the request, as more words and formatting are added until then.
