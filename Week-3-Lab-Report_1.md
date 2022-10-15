@@ -183,7 +183,7 @@ The output is in the reverse order due to the issue mentioned above -- prependin
 The method that is commented out is the original implementation. To reiterate, the bug here is that we are adding to the array at index 0 for all elements. As a result, we get an array that is in a reversed order due to the fact that we are adding to the front (prepending) instead of the back (appending).
 
 **Symptom and bug relationship**:\
-The bug that causes the method to always add elements to the front means that this method fails outside of some very specific inputs: 1) an empty listArray. 2) an input with only 1 element. 3) an input that leads to the filter removing all or all but one element. This bug causes this particular symptom due to the fact that a reversed filtered arrayList will never be equivalent to our expected output of a filtered arrayList in the same order -- and this holds true for all inputs outside of the 3 outlined above.\
+The bug that causes the method to always add elements to the front means that this method fails outside of some very specific inputs: 1) an empty listArray. 2) an input with only 1 element. 3) an input that leads to the filter removing all or all but one element. This bug causes this particular symptom due to the fact that a reversed filtered arrayList will never be equivalent to our expected output of a filtered arrayList in the same order -- and this holds true for all inputs outside of the 3 outlined above.
 
 <br/>
 <br/>
