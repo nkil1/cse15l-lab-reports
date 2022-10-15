@@ -105,8 +105,7 @@ split() = "=". Splits the query string if a "=" is found. This allows keyword "s
 add() = parameters[1]. adds the user's input into the words ArrayList.
 
 **Do any values change?** \
-The words ArrayList gets an extra initialized element (value) everytime the add operation succeeds. The values in parameters[0] and [1] are created and initialized with potentially new elements for every request; however, they aren't persistent data so they don't really change by the end of the request, as concatenate doesn't modify parameters[1].
-
+The words ArrayList gets an extra initialized element (value) everytime the add operation succeeds. The values in parameters[0] and [1] are created and initialized with potentially new elements for every request; however, they are never modified by the end of the request.
 <br/>
 <br/>
 
@@ -137,7 +136,7 @@ concat() = " add ", which concatenates " and " onto the output string.\
 substring() = (0, anOutput.length() - 4). Due to my decision to format the output with an " add " after every word, I use the substring method in order to remove the " and " from the last word.
 
 **Do any values change?** \
-As before, the values in parameters[0] and [1] are created and initialized with potentially new elements for every request, but aren't persistent. Our words arrayList never changes when we are being asked to search. The output of the initialized string anOutput will differ depending on the elements held in the words ArrayList, but is not persistent data so it will NOT change by the time the request is fully handled.
+As before, the values in parameters[0] and [1] are created and initialized with potentially new elements for every request,  but aren't modified by the end of the request. Our words arrayList never changes when we are being asked to search. The output string anOutput constantly changes until the end of the request, as more words and formatting are added until then.
 
 <br/>
 <br/>
