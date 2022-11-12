@@ -184,7 +184,7 @@ The `-printf` option is used with a variety of directives (the commands with a "
 
 <br/>
 
----
+
 Option #3\
 **The command and output:**
 
@@ -209,7 +209,7 @@ $ find ./technical -maxdepth 2 -iname "chapter*"
 ```
 
 **Explanation & potential usage:**\
-The `-maxdepth` specifies the max number of sub-directories to go into when performing the `find` command; in this case, `-maxdepth 2` means that `find` should only go 2 sub-directories deep when performing its operations. This can be useful if you only want information about a certain number of sub-directories in a directory with many sub-directories, without having to specify the directories to search in explicitly. 
+The `-maxdepth` option specifies the max number of sub-directories to go into when performing the `find` command; in this case, `-maxdepth 2` means that `find` should only go 2 sub-directories deep when performing its operations. This can be useful if you only want information about a certain number of sub-directories in a directory with many sub-directories, without having to specify the directories to search in explicitly. 
 
 
 ## 3) "grep" command-line options
@@ -246,6 +246,7 @@ $ grep -c "state" ./technical/government/Media/A_Perk_of_Age.txt
 The `-c` option outputs the number of lines that contain the given string. Useful if you want to find how many matching lines there are between different files (such as when comparing student PAs...)
 
 <br/>
+
 
 Option #3\
 **The command and output:**
