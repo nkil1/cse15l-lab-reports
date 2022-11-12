@@ -19,7 +19,7 @@ The `-c` option is used here to count the number of lines "abuse" appears in a s
 
 <br/>
 
-Example #2\
+Example #2:\
 **The command and output:**
 
 ```
@@ -45,7 +45,7 @@ The `-c` option is used here to count the number of lines that match "environmen
 
 <br/>
 
-Example #3\
+Example #3:\
 **The command and output:**
 
 ```
@@ -64,7 +64,7 @@ The `-c` option is used here to compare the number of lines that match "abuse" b
 ## 2) The "-n" option (aka line-number)
 General description: used to prefix each line of matching output with its line number.
 
-Example #1\
+Example #1:\
 **The command and output:**
 
 ```
@@ -81,7 +81,7 @@ The `-n` option is used here in order to get the lines where the word "abuse" ap
 
 <br/>
 
-Example #2\
+Example #2:\
 **The command and output:**
 
 ```
@@ -101,7 +101,7 @@ The `-n` option is used here on a directory in order to get the matching lines i
 <br/>
 
 
-Example #3\
+Example #3:\
 **The command and output:**
 
 ```
@@ -123,7 +123,7 @@ The `-n` option is used here in order to check the lines that match the given ke
 ## 3) The "-L" option (aka files-without-match)
 General description: Used to print the name of each file and its path which DOESN'T contain a matching line. 
 
-Example #1\
+Example #1:\
 **The command and output:**
 
 ```
@@ -136,7 +136,7 @@ The `-L` option is used here to check whether or not the given string doesn't ex
 
 <br/>
 
-Example #2\
+Example #2:\
 **The command and output:**
 
 ```
@@ -156,7 +156,7 @@ The `-L` option is used on a directory in order return the names of any files an
 <br/>
 
 
-Example #3\
+Example #3:\
 **The command and output:**
 
 ```
