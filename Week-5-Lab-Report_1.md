@@ -119,6 +119,7 @@ The `-n` option is used here in order to check the lines that match the given ke
 
 <br/>
 
+---
 ## 3) The "-L" option (aka files-without-match)
 General description: Used to print the name of each file and its path which DOESN'T contain a matching line. 
 
