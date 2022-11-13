@@ -13,52 +13,52 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 ---
 ### Sequence with screenshots:
 
-1. File when opened. No keystrokes.
+1) File when opened. No keystrokes.
 ![Initial](./week7images/one.png)
 
 <br/>
 
-2. Searching for keyword. Keystrokes: `/ t e c`
+2) Searching for keyword. Keystrokes: `/ t e c`
 ![Second](./week7images/two.png)
 
 <br/>
 
-3. Jumping to matched word. Keystrokes: `<Enter>`
+3) Jumping to matched word. Keystrokes: `<Enter>`
 ![Third](./week7images/three.png)
 
 <br/>
 
-4. Jumping to next matched word. Keystrokes: `n`
+4) Jumping to next matched word. Keystrokes: `n`
 ![Fourth](./week7images/four.png)
 
 <br/>
 
-5. Going back a word. Keystrokes: `b`
+5) Going back a word. Keystrokes: `b`
 ![Fifth](./week7images/five.png)
 
 <br/>
 
-6. Replacing everything between the parenthesis. Keystrokes: `c %`
+6) Replacing everything between the parenthesis. Keystrokes: `c %`
 ![Sixth](./week7images/six.png)
 
 <br/>
 
-7. Appending onto "Handler" so that main takes 2nd command line arg. Keystrokes: `( a r g s [ 1 ] )`
+7) Appending onto "Handler" so that main takes 2nd command line arg. Keystrokes: `( a r g s [ 1 ] )`
 ![Seventh](./week7images/seven.png)
 
 <br/>
 
-8. Exiting insert mode. Keystrokes: `<Esc>`
+8) Exiting insert mode. Keystrokes: `<Esc>`
 ![Eigth](./week7images/eight.png)
 
 <br/>
 
-9. Entering command to save changes. Keystrokes: `: w `
+9) Entering command to save changes. Keystrokes: `: w `
 ![Ninth](./week7images/nine.png)
 
 <br/>
 
-10. Saving changes. Keystrokes: `<Enter>`
+10) Saving changes. Keystrokes: `<Enter>`
 ![Tenth](./week7images/ten.png)
 
 <br/>
