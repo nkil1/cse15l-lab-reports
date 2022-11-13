@@ -92,7 +92,6 @@ $ grep -n pricing ./technical/government/Env_Prot_Agen/*.txt
 ./technical/government/Env_Prot_Agen/tech_sectiong.txt:219:pricing of power generation and, (2) are likely to price retail
 ./technical/government/Env_Prot_Agen/tech_sectiong.txt:227:likely to use cost-of-service pricing principles.
 ./technical/government/Env_Prot_Agen/tech_sectiong.txt:244:occur) that allowance allocations will not alter pricing of
-using -n on a directory
 ```
 
 **Explanation & potential usage:**\
