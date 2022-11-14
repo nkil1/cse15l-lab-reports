@@ -4,11 +4,10 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 
 ### The full sequence:
  `/ t e c <Enter> n b c % ( a r g s [ 1 ] ) <Esc> : w <Enter>`
-
 ### Sequence with screenshots:
 
-1) File when opened. No keystrokes.
-![Initial](./week7images/one.png)
+1) File when opened. No keystrokes.\
+<img src="./week7images/one.png" alt="drawing" width="400"/>
 
 <br/>
 
