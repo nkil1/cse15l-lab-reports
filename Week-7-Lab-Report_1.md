@@ -35,15 +35,7 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 ![Sixth](./week7images/six.png)
 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 7) Appending onto "Handler" so that main takes 2nd command line arg. Keystrokes: `( a r g s [ 1 ] )`
 ![Seventh](./week7images/seven.png)
 
