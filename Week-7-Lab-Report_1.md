@@ -1,8 +1,5 @@
 # Week 7 Lab Report
 Welcome to my Week 7 lab report! Here I will showcase the best way I came up with in order to change the main mthod to take a command-line argument, then time the difference between scp-ing a file and simply just editing directly with vim. 
-<br />
-<br />
-
 ## 1) Part 1: Changing the main method
 
 ### The full sequence:
