@@ -7,7 +7,7 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 ### Sequence with screenshots (starts on next page in PDF format):
 
 1) File when opened. No keystrokes.\
-<img src="./week7images/one.png" alt="drawing" width="400"/>
+![First](./week7images/one.png)
 
 <br/>
 
