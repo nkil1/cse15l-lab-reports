@@ -4,7 +4,7 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 
 ### The full sequence:
  `/ t e c <Enter> n b c % ( a r g s [ 1 ] ) <Esc> : w <Enter>`
-### Sequence with screenshots:
+### Sequence with screenshots (starts on next page in PDF format):
 
 1) File when opened. No keystrokes.\
 <img src="./week7images/one.png" alt="drawing" width="400"/>
@@ -35,7 +35,9 @@ Welcome to my Week 7 lab report! Here I will showcase the best way I came up wit
 ![Sixth](./week7images/six.png)
 
 <br/>
-
+<br/>
+<br/>
+<br/>
 7) Appending onto "Handler" so that main takes 2nd command line arg. Keystrokes: `( a r g s [ 1 ] )`
 ![Seventh](./week7images/seven.png)
 
