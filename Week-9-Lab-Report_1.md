@@ -114,22 +114,22 @@ Repository in question: https://github.com/ucsd-cse15l-f22/list-methods-compile-
 
 <br/>
 
-` Line 3: echo "Autograder v0.1; URL to grade: " $1`\
+`Line 3: echo "Autograder v0.1; URL to grade: " $1`\
 Standard output: Autograder v0.1; URL to grade:  https://github.com/ucsd-cse15l-f22/list-methods-compile-error \
 Standard error: (N/A)\
 Return code: 0
 
-` Line 4: echo ""`\
+`Line 4: echo ""`\
 Standard output: (N/A)\
 Standard error: (N/A)\
 Return code: 0
 
-` Line 6: rm -rf student-submission`\
+`Line 6: rm -rf student-submission`\
 Standard output: (N/A)\
 Standard error: (N/A)\
 Return code: 0
 
-` Line 7: git clone $1 student-submission`\
+`Line 7: git clone $1 student-submission`\
 Standard output: (N/A)\
 Standard error: Cloning into 'student-submission'...\
 Return code: 0
