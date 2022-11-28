@@ -109,7 +109,7 @@ https://github.com/ucsd-cse15l-f22/list-methods-compile-error
 ---
 
 ## Part 3: Tracing script during test
-I will be tracing what my grading script does when run with the test shown in **screenshot #3**, which is the example that showcases a compile error. As outlined in the lab report instructions, I will only focus on commands and if statements.\
+I will be tracing what my grading script does when run with the test shown in **screenshot #3**, which is the example that showcases a compile error. As outlined in the lab report instructions, the focus will be on commands and conditionals (if statements).\
 Repository in question: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
 
 <br/>
