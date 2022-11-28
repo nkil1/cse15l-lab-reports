@@ -8,7 +8,7 @@ Welcome to my Week 9 Lab Report! Here I will showcase my bash grading script, it
 
 ## Part 1: My grading script (w/ line numbers)
 ```
-1. CP=".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar"
+1. WINDOWSCOMP=".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar"
 2.
 3. echo "Autograder v0.1; URL to grade: " $1
 4. echo ""
@@ -36,18 +36,18 @@ Welcome to my Week 9 Lab Report! Here I will showcase my bash grading script, it
 26. fi
 27.
 28. cp ../TestListExamples.java .
-29. javac -cp $CP *.java 2> compile_error.txt
+29. javac -cp $WINDOWSCOMP *.java 2> error.txt
 30.
 31. if [[ $? -eq 0 ]]
 32. then
 33.   echo "Compiled successfully."
 34. else
 35.   echo "COMPILING FAILED!!! Error output:"
-36.   cat compile_error.txt
+36.   cat error.txt
 37.   exit 1
 38. fi
-39. rm -rf test_result.txt
-40. java -cp $CP org.junit.runner.JUnitCore TestListExamples > test_result.txt
+39. 
+40. java -cp $WINDOWSCOMP org.junit.runner.JUnitCore TestListExamples > test_result.txt
 41. let ERR2=$?
 42. let VAR1=$(head -n 2 test_result.txt | tail -n 1 | grep -o "." | grep -c "E")
 43. let VAR2=$(head -n 2 test_result.txt | tail -n 1 | grep -o "." | grep -c "\.")
